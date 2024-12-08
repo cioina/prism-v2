@@ -1,0 +1,46 @@
+```html
+<a href="#foo">Click me!</a> &amp;
+```
+
+```js
+var foo = 0;
+```
+
+----------------------------------------------------
+
+[
+	["code", [
+		["punctuation", "```"],
+		["code-language", "html"],
+
+		["code-block", [
+			["tag", [
+				["punctuation", "<"],
+				["tag", ["a"]],
+				["attr-name", ["href"]],
+				["attr-value", [
+					["punctuation", "="],
+					["punctuation", "\""],
+					"#foo",
+					["punctuation", "\""]
+				]],
+				["punctuation", ">"]
+			]],
+			"Click me!",
+			["tag", [
+				["punctuation", "</"],
+				["tag", ["a"]],
+				["punctuation", ">"]
+			]],
+			["entity", "&amp;"]
+		]],
+
+		["punctuation", "```"]
+	]],
+
+	["code", [
+		["punctuation", "```"], ["code-language", "js"],
+		["code-block", "var foo = 0;"],
+		["punctuation", "```"]
+	]]
+]
